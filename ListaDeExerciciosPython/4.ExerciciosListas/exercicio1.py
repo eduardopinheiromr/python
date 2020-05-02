@@ -1,10 +1,8 @@
 # 1. Faça um Programa que leia um vetor de 5 números inteiros e mostre-os.
 
 def ArrayString2Int(arrayString, arrayInt): #arrayString é a lista a ser convertida, arrayInt é onde irão os objetos convertidos.
-    while len(arrayInt) != len(arrayString):
-        v = 0
-        conversor = arrayInt.append(int(arrayString[v]))
-        v += 1
+    while len(arrayInt) < len(arrayString):
+        arrayInt.append(int(arrayString[len(arrayInt)]))
     pass
 
 listastr = input("Digite 5 números inteiros separados por vírgula: ").split(",")
