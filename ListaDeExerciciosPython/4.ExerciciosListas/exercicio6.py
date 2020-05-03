@@ -1,6 +1,6 @@
 #6. Faça um Programa que peça as quatro notas de 10 alunos, calcule e armazene num vetor a média de cada aluno, imprima o número de alunos com média maior ou igual a 7.0.
 
-def ArraySelfString2Float(arrayString): #arrayString é a lista a ser convertida, arrayInt é onde irão os objetos convertidos.
+def ArraySelfString2Float(arrayString): #O método foi atualizado e deverá ser chamado dentro de uma variável(Podendo ser a própria arrayString)
     arrayFloat = []
     while len(arrayFloat) < len(arrayString):
         arrayFloat.append(float(arrayString[len(arrayFloat)]))
